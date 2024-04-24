@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "test suite",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/browsers.test.mjs"
+  },
+  "author": "jdiaz",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.0",
+    "chromedriver": "^123.0.2",
+    "mocha": "^10.4.0",
+    "selenium-webdriver": "^4.19.0"
+  }
+}
